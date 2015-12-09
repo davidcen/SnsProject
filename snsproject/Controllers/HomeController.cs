@@ -10,7 +10,9 @@ namespace snsproject.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.abc = "123";
             return View();
+
         }
 
         public ActionResult About()
